@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #0441c5;
+  color: white;
+  padding: 0.3rem;
+  text-align: center;
+  bottom:0;
+}
+
+footer {
+  background: #25dabb;
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+}
+
+.home {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.launch-card {
+  border: 1px solid #000000;
+  padding: 1rem;
+  text-align: center;
+}
+
+.launch-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.launch-details {
+  padding: 1rem;
+}
+
+.launch-details img {
+  max-width: 100%;
+  height: auto;
+}
